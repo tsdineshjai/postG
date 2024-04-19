@@ -1,2 +1,7 @@
+#files and folders ignored by git
+
 #node modules folder
 node_modules
+
+#output folder
+dist

@@ -4,7 +4,7 @@ const { Client } = pg;
 
 export async function getClient() {
 	const client = new Client(
-		"postgres://bcezpjoa:XwXwHIOU2A4LSgcnNnls934TgqmxyEDT@arjuna.db.elephantsql.com/postGDatabase"
+		"postgres://zrvtzdte:wPhkblpn-tyhUJOIc-f-ssK6Q9jI-XHQ@arjuna.db.elephantsql.com/zrvtzdte"
 	);
 	await client.connect();
 	return client;
